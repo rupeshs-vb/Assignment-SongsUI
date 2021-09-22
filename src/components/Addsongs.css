@@ -1,0 +1,30 @@
+.Add_Songs {
+  color: rgb(170, 75, 75);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.Add_Songs:hover {
+  color: red;
+}
+.Adding_song {
+  background-color: rgb(235, 125, 125);
+  border: 1rem solid rgb(182, 74, 74);
+  padding: 1rem 2rem;
+  /* display: none; */
+}
+.Adding_song input {
+  width: 20rem;
+  outline: none;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  text-transform: capitalize;
+}
+.Adding_song input:focus {
+  background-color: rgb(241, 153, 153);
+}
+.Adding_song button {
+  border: none;
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.5rem;
+}

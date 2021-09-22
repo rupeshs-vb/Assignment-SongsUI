@@ -1,0 +1,29 @@
+.Song_menu {
+  display: flex;
+}
+.likebutton {
+  display: flex;
+}
+.likebutton h2 {
+  margin-top: 0.3rem;
+  font-weight: 200;
+  padding-left: 1rem;
+}
+.audio_container {
+  display: flex;
+}
+.audio_tag {
+  text-align: center;
+}
+audio {
+  margin-left: 1rem;
+  width: 20rem;
+}
+.Song_information {
+  margin-left: 1rem;
+}
+.Drop_menu select {
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,21 @@
+.search_tag {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgb(170, 75, 75);
+}
+.search_tag input {
+  width: 30rem;
+  padding: 0.3rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  text-transform: capitalize;
+}
+.search_tag button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

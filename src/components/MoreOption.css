@@ -1,0 +1,21 @@
+.Drop_menu {
+  width: 1rem;
+  position: relative;
+}
+.main_button {
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
+.list {
+  padding: 0.3rem 1rem;
+  margin-left: 0.2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  display: none;
+}
+.Drop_menu:hover .list {
+  display: block;
+}
