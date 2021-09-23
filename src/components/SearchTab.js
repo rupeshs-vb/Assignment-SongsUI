@@ -1,15 +1,17 @@
 import React,{useState} from 'react'
 import './SearchTab.css'
 
-const SearchTab = ({songInfo}) => {
+const SearchTab = () => {
     const [searchSong,setSearchSong]=useState("")
     const [searchedSongName,setSearchedSongName]=useState()
     const SearchSong=(event)=>{
         setSearchSong(event.target.value)
+        console.log(setSearchedSongName)
     }
     const onSearch=()=>{
         console.log(searchedSongName);
-        setSearchedSongName(searchSong)
+       
+        
     }
     return (
         <div className="search_tag">
@@ -17,8 +19,8 @@ const SearchTab = ({songInfo}) => {
             onChange={SearchSong} 
             value={searchSong}/>
             <button onClick={onSearch}>Search</button>
-            
         </div>
+        
     )
 }
 

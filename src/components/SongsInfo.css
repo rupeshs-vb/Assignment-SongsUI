@@ -1,11 +1,8 @@
-.Song_menu {
-  display: flex;
-}
 .likebutton {
   display: flex;
 }
 .likebutton h2 {
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   font-weight: 200;
   padding-left: 1rem;
 }
@@ -26,4 +23,16 @@ audio {
   margin-top: 1rem;
   border: none;
   outline: none;
+}
+.Song_subtitle {
+  color: red;
+}
+.Song_menu:hover {
+  background-color: antiquewhite;
+  margin: 0;
+  box-shadow: 1px 1px 20px;
+}
+.Song_title {
+  font-weight: bold;
+  font-size: large;
 }

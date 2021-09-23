@@ -1,6 +1,6 @@
 .search_tag {
-  margin: 1rem 0;
-  padding: 1rem;
+  margin: 0;
+  padding: 1.5rem;
   background-color: rgb(170, 75, 75);
 }
 .search_tag input {

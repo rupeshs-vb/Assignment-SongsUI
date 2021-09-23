@@ -4,25 +4,23 @@ import SongInformatio from './SongInformatio'
 import MoreOptions from './MoreOptions'
 import SearchTab from './SearchTab'
 import './SongsInfo.css'
-import AddSongs from './AddSongs'
+
 const SongsInfo = ({songsData}) => {
     return (
         <>  
             <SearchTab/><hr/>
             {
                 songsData.map((songInfo)=>{
-                    return(
+                    return( 
                         
                         <div key={songInfo.id}>
-                            <div className="Song_menu">
-                            <div className="likebutton">
-                                <LikeButton songInfo={songInfo} />          
-                            </div>
-                            
+                            <div className="Song_menu">      
                             <div className="Song_information">    
                                 <SongInformatio songInfo={songInfo}/>
                             </div>
-                            <div className="audio_container">
+                            <div className="likebutton">
+                                <LikeButton songInfo={songInfo} />          
+                                <div className="audio_container">
                                 <div className="audio_tag">
                                     <audio src="" controls />
                                 </div>
@@ -32,13 +30,15 @@ const SongsInfo = ({songsData}) => {
                             </div>
                             </div>
                             </div>
+                            
+                            </div>
                             <hr/>
                         </div>
                         
                     );
                 })
             }
-            <AddSongs/>
+            
         </>
     )
 }
