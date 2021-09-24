@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+  height: 90vh;
+  overflow: hidden;
 }
 
 code {
@@ -15,3 +16,17 @@ code {
 /* .like_button {
   display: flex;
 } */
+a {
+  text-decoration: none;
+  color: brown;
+}
+.Song_container {
+  overflow: auto;
+  height: 22rem;
+  background-color: rgb(255, 245, 245);
+}
+@media (max-width: 420px) {
+  .Song_container {
+    height: 15rem;
+  }
+}

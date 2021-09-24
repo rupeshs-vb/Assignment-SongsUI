@@ -1,3 +1,4 @@
+// here the Data is define in the form of array of obect
 const SongsData=[
     {
         id:1,

@@ -1,19 +1,13 @@
 import React from 'react'
-import './MoreOption.css'
-const MoreOptions = ({songInfo}) => {
-    const DeleteElement=(id)=>{
-        console.log(id)
-        const afterDeleted=Object.values(songInfo).filter((songInfo,ind)=>{
-            return id!==ind;
-        });    
-        console.log(afterDeleted)
-    }
+import './CSS/MoreOption.css'
+const MoreOptions = ({songsid,DeleteElement}) => {
     return (
-        <>
+        <> 
+            {/* here the drop menu is created */}
             <div className="Drop_menu">
                 <button className="main_button"><i className="fas fa-caret-down"></i></button>
                 <div className="Drop_menu_list">
-                    <button className="list" onClick={()=>DeleteElement(songInfo.id)}>Delete</button>
+                    <button className="list" onClick={()=>DeleteElement(songsid)}>Delete</button>
                 </div>
             </div>          
         </>
